@@ -10,7 +10,7 @@ export default function LiveStream() {
     const video = videoRef.current;
     if (!video) return;
 
-    const hlsUrl = "http://localhost:8000/stream/stream.m3u8";
+    const hlsUrl = "https://faatak-main.onrender.com/stream/stream.m3u8";
 
     // If HLS.js is supported (Chrome, Edge, Firefox)
     if (Hls.isSupported()) {
