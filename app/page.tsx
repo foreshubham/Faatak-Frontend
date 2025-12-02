@@ -16,7 +16,6 @@ export default function LiveStream() {
     if (Hls.isSupported()) {
       const hls = new Hls({
         liveSyncDuration: 1,
-        maxLatency: 2,
         liveMaxLatencyDuration: 3,
       });
 
